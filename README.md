@@ -23,13 +23,13 @@ Demo: https://sukitsubaki.github.io/prettyJSON
 
 ### Input:
 ```json
-{"name":"Suiko","age":30,"city":"Kyōto"}
+{"name":"Suki","age":30,"city":"Kyōto"}
 ```
 
 ### Output (formatted):
 ```json
 {
-    "name": "Suiko",
+    "name": "Suki",
     "age": 30,
     "city": "Kyōto"
 }
