@@ -1,4 +1,6 @@
 # prettyJSON
+![License](https://img.shields.io/github/license/sukitsubaki/prettyJSON)
+
 A simple and lightweight JSON formatter and validator for easy readability and debugging.
 
 ## Features
