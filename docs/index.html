@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prettyJSON</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1><span style="color: #b44682">{</span>prettyJSON<span style="color: #b44682">}</span></h1>
+        <textarea id="jsonInput" placeholder="&#123;&quot;GitHub&quot;:&quot;sukitsubaki/prettyJSON&quot;&#125;"></textarea>
+        <div class="buttons">
+            <button onclick="formatJSON()">Format JSON</button>
+            <button onclick="minifyJSON()">Minify JSON</button>
+            <button onclick="clearJSON()">Clear</button>
+        </div>
+        <pre id="jsonOutput"></pre>
+    </div>
+    <div class="feet">
+        Made with &hearts; by <a href="https://github.com/sukitsubaki">sukitsubaki</a> / MIT License
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
